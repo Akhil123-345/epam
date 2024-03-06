@@ -14,6 +14,7 @@ public class Signin {
         driver.findElement(By.id("username")).sendKeys("2100031754");
         driver.findElement(By.id("password")).sendKeys("Umesh@308");
         driver.findElement(By.id("loginbtn")).submit();
+        driver.quit();
     }
 }
 
